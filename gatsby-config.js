@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    url: 'https://lumen.netlify.com',
-    title: 'Blog by John Doe',
-    subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    url: 'https://okb2.netlify.com',
+    title: 'Oregon Knowledge Bank',
+    subtitle: 'A local public safety resource.',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -11,22 +11,20 @@ module.exports = {
         path: '/'
       },
       {
-        label: 'About me',
+        label: 'About',
         path: '/about/'
       },
       {
-        label: 'Contact me',
+        label: 'Contact',
         path: '/contact/'
       }
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
-      telegram: '#',
+      name: 'Oregon Knowledge Bank',
+      email: 'okb@oregon.gov',
       twitter: '#',
       github: '#',
-      rss: '#',
-      vk: '#'
+      rss: '#'
     }
   },
   plugins: [
